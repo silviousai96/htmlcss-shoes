@@ -1,27 +1,22 @@
-*{
+* {
     font-family: 'Rubik Mono One', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;       
 }
+/* nav */
 
-/* main */
-main{
-    position: relative;
-}
-section {
-    width: 100%;
-    height: 100vh;    
-    position: relative;
-}
-.pallini{
+.pallini {
     position: fixed;
-    top: 35px;
-    right: 20px;  
-    
+    top: 0;
+    left:0;
+    width:100%;
+    padding:30px;
+    z-index:1;
+    text-align: right;
 }
 
-.circle{
+.circle {
         vertical-align: middle;
         font-size: 30px;
         color: black;
@@ -32,8 +27,19 @@ section {
         border-radius: 50%;
         display: inline-block;
         text-align: center;
-        line-height: 60px;
-        
+        line-height: 60px;        
+}
+
+/* main */
+
+main {
+    position: relative;
+}
+
+section {
+    width: 100%;
+    height: 100vh;    
+    position: relative;
 }
 
 .red {
@@ -47,26 +53,26 @@ section {
 .yellow {
     background-color: yellow;
 }
+
 .centered{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    
+    transform: translate(-50%, -50%);    
 }
 
-.scritta{
+.scritta {
     text-align: center;
     font-size: 30px;            
 }
-img{
+img {
     height: 60vh;
 }
 
-.scritta-gialla{
+.scritta-gialla {
     color: yellow;
 }
-.scritta-verde{
+.scritta-verde {
     color: green;
 }
 
