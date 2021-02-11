@@ -19,17 +19,17 @@
 }
 
 .circle {
-        vertical-align: middle;
-        font-size: 30px;
-        color: black;
-        background-color: white;
-        width: 60px;
-        height: 60px;
-        border: 1px solid white;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        line-height: 60px;     
+    vertical-align: middle;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;     
 }
 
 
@@ -57,7 +57,7 @@ section {
     background-color: yellow;
 }
 
-.centered{
+.centered {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,6 +68,7 @@ section {
     text-align: center;
     font-size: 30px;            
 }
+
 img {
     height: 60vh;
 }
@@ -75,6 +76,7 @@ img {
 .scritta-gialla {
     color: yellow;
 }
+
 .scritta-verde {
     color: green;
 }
